@@ -3,7 +3,7 @@
   <arg name="gui" default="True" />
   
   <param name="robot_description"
-         command="$(find xacro)/xacro --inorder $(find robotiq_description)/urdf/robotiq_85_gripper.xacro" />
+         command="$(find xacro)/xacro --inorder $(find robotiq_description)/urdf/robotiq_2f_gripper.xacro" />
   
   <param name="use_gui" value="$(arg gui)"/>
   <node name="joint_state_publisher" pkg="joint_state_publisher"
@@ -13,6 +13,6 @@
         type="state_publisher" />
   
   <node name="rviz" pkg="rviz" type="rviz"
-        args="-d $(find robotiq_description)/config/robotiq_85.rviz"
+        args="-d $(find robotiq_description)/config/robotiq_2f.rviz"
         required="true" />
 </launch>

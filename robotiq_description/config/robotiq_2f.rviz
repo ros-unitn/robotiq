@@ -58,23 +58,23 @@ Visualization Manager:
         All Enabled: false
         gripper_root_link:
           Value: true
-        robotiq_85_base_link:
+        robotiq_2f_base_link:
           Value: true
-        robotiq_85_left_finger_link:
+        robotiq_2f_left_finger_link:
           Value: true
-        robotiq_85_left_finger_tip_link:
+        robotiq_2f_left_finger_tip_link:
           Value: true
-        robotiq_85_left_inner_knuckle_link:
+        robotiq_2f_left_inner_knuckle_link:
           Value: true
-        robotiq_85_left_knuckle_link:
+        robotiq_2f_left_knuckle_link:
           Value: true
-        robotiq_85_right_finger_link:
+        robotiq_2f_right_finger_link:
           Value: true
-        robotiq_85_right_finger_tip_link:
+        robotiq_2f_right_finger_tip_link:
           Value: true
-        robotiq_85_right_inner_knuckle_link:
+        robotiq_2f_right_inner_knuckle_link:
           Value: true
-        robotiq_85_right_knuckle_link:
+        robotiq_2f_right_knuckle_link:
           Value: true
         world:
           Value: true
@@ -86,18 +86,18 @@ Visualization Manager:
       Tree:
         world:
           gripper_root_link:
-            robotiq_85_base_link:
-              robotiq_85_left_inner_knuckle_link:
-                robotiq_85_left_finger_tip_link:
+            robotiq_2f_base_link:
+              robotiq_2f_left_inner_knuckle_link:
+                robotiq_2f_left_finger_tip_link:
                   {}
-              robotiq_85_left_knuckle_link:
-                robotiq_85_left_finger_link:
+              robotiq_2f_left_knuckle_link:
+                robotiq_2f_left_finger_link:
                   {}
-              robotiq_85_right_inner_knuckle_link:
-                robotiq_85_right_finger_tip_link:
+              robotiq_2f_right_inner_knuckle_link:
+                robotiq_2f_right_finger_tip_link:
                   {}
-              robotiq_85_right_knuckle_link:
-                robotiq_85_right_finger_link:
+              robotiq_2f_right_knuckle_link:
+                robotiq_2f_right_finger_link:
                   {}
       Update Interval: 0
       Value: true
@@ -116,47 +116,47 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        robotiq_85_base_link:
+        robotiq_2f_base_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robotiq_85_left_finger_link:
+        robotiq_2f_left_finger_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robotiq_85_left_finger_tip_link:
+        robotiq_2f_left_finger_tip_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robotiq_85_left_inner_knuckle_link:
+        robotiq_2f_left_inner_knuckle_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robotiq_85_left_knuckle_link:
+        robotiq_2f_left_knuckle_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robotiq_85_right_finger_link:
+        robotiq_2f_right_finger_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robotiq_85_right_finger_tip_link:
+        robotiq_2f_right_finger_tip_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robotiq_85_right_inner_knuckle_link:
+        robotiq_2f_right_inner_knuckle_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        robotiq_85_right_knuckle_link:
+        robotiq_2f_right_knuckle_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
